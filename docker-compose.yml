@@ -23,7 +23,7 @@ services:
     links: 
       - express
       - svelte
-      - nginx_proxy
+      - nginx-proxy
       - letsencrypt
     environment: 
       - VIRTUAL_HOST=rugamas.xyz,www.rugamas.xyz
