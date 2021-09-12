@@ -27,6 +27,7 @@ services:
       - letsencrypt
     environment: 
       - VIRTUAL_HOST=rugamas.xyz,www.rugamas.xyz
+      - LETSENCRYPT_HOST=rugamas.xyz,www.rugamas.xyz
     restart: always
     
   nginx-proxy:
