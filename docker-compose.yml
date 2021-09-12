@@ -19,7 +19,7 @@ services:
     container_name: nginx
     build: ./nginx
     expose: 
-      - 80:80
+      - 80
     links: 
       - express
       - svelte
